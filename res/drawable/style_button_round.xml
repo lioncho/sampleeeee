@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <!-- 테두리 -->
+                    <stroke
+			            android:height="1.0dip"
+			            android:width="1.0dip"
+			            android:color="@color/border" />
+                    <corners android:radius="@dimen/btn_radious" />
+                </shape>
+            </item>
+            <item android:bottom="1dp" android:top="1dip" android:left="1dip" android:right="1dip">
+                <shape>
+                    <corners android:radius="@dimen/btn_radious" />
+                    <solid android:color="@color/button_round" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <!-- 테두리 -->
+                    <stroke
+			            android:height="1.0dip"
+			            android:width="1.0dip"
+			            android:color="@color/border" />
+                    <corners android:radius="@dimen/btn_radious" />
+                </shape>
+            </item>
+            <item android:bottom="1dp" android:top="1dip" android:left="1dip" android:right="1dip">
+                <shape>
+                    <corners android:radius="@dimen/btn_radious" />
+                    <solid android:color="#ffffff" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>
